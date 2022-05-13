@@ -24,6 +24,26 @@ h4 {
   color: var(--primary-title-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0% auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
+}
+
 header a,
 footer a {
   text-decoration: none;
@@ -81,6 +101,7 @@ footer a {
 
 .hero {
   background-color: var(--secondary-bg-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -89,7 +110,6 @@ footer a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -106,6 +126,8 @@ footer a {
   line-height: 1.8;
   letter-spacing: 0.06em;
   font-family: inherit;
+
+  display: inline-block;
 }
 
 .button:hover {
@@ -129,12 +151,16 @@ footer a {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .features-description {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  margin-bottom: 94px;
 }
 
 .characteristic-title {
@@ -143,6 +169,8 @@ footer a {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 
 /* < !--Наша команда--> */
@@ -157,6 +185,11 @@ footer a {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+}
+.member-img {
+  margin-bottom: 50px;
 }
 
 .member-title {
@@ -164,6 +197,8 @@ footer a {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
 }
 
 .member-position {
@@ -173,6 +208,13 @@ footer a {
 
 /* < !--Футер--> */
 
+.foot-section {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 footer {
   background-color: var(--secondary-bg-color);
   font-style: normal;
@@ -180,6 +222,10 @@ footer {
 
 .foot {
   color: var(--primary-bg-color);
+}
+.street {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 address {
@@ -197,6 +243,7 @@ address p {
 }
 .contacts a {
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 .contacts .link:hover,
 .contacts .link:focus {
