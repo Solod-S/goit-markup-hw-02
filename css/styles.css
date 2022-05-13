@@ -51,6 +51,7 @@ footer a {
 
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 /* < !-- Шапка сайта начало--> */
@@ -251,7 +252,9 @@ address p {
 }
 /* ----------------------------------------------------- 2 -------------------------------------------------- */
 /* < !-- Портфолио --> */
-
+.portfolio-buttons {
+  margin-bottom: 50px;
+}
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
@@ -278,11 +281,17 @@ address p {
   text-decoration: none;
 }
 
+.portfolio-img {
+  margin-bottom: 20px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 
 .portfolio-dscr {
