@@ -34,10 +34,14 @@ ul {
   margin-bottom: 0;
 }
 
+/* !!!!!!!!!!!!!!! Задал ширину контейнера (дивов) + выровнял по середине margin-left !!!!!!!!!!!!!!*/
 .container {
   width: 1200px;
-  margin: 0% auto;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* !!!!!!!!!!!!!!! Задал внутрении отступы (падинги) в секциях + рамку для проверки внешних отступов (маргинов) !!!!!!!!!!!!!!*/
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -106,6 +110,8 @@ footer a {
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--primary-bg-color);
 
   font-weight: 900;
